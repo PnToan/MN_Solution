@@ -1,0 +1,57 @@
+/* =========================================================
+   MN_SOLUTION - INPUT COMPONENT
+   File: ui/components/input.css
+   ========================================================= */
+
+/* =========================================================
+   01. FORM GROUP
+   ========================================================= */
+.mn-form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 9px;
+}
+
+/* =========================================================
+   02. FORM LABEL
+   ========================================================= */
+.mn-form-label {
+  font-size: 11px;
+  color: var(--mn-text-sub);
+  user-select: none;
+}
+
+/* =========================================================
+   03. FORM INPUT
+   ========================================================= */
+.mn-form-input,
+.mn-form-select {
+  width: 100%;
+  height: 28px;
+  padding: 0 7px;
+  border: 1px solid var(--mn-border-main);
+  border-radius: 5px;
+  background: #1c1c1c;
+  color: var(--mn-text-main);
+  outline: none;
+  font-size: 12px;
+}
+
+.mn-form-input:focus,
+.mn-form-select:focus {
+  border-color: var(--mn-accent);
+}
+
+/* =========================================================
+   04. NUMBER INPUT
+   ========================================================= */
+.mn-form-input[type="number"] {
+  appearance: textfield;
+}
+
+.mn-form-input[type="number"]::-webkit-outer-spin-button,
+.mn-form-input[type="number"]::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
+}

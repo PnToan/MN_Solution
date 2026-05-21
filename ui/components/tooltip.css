@@ -1,0 +1,23 @@
+/* =========================================================
+   MN_SOLUTION - TOOLTIP COMPONENT
+   File: ui/components/tooltip.css
+   ========================================================= */
+
+/* =========================================================
+   01. TOOLTIP ROOT
+   ========================================================= */
+.tool-tooltip {
+  position: fixed;
+  z-index: 9999;
+  display: none;
+  padding: 5px 8px;
+  border: 1px solid var(--mn-border-main);
+  border-radius: 4px;
+  background: #2b2b2b;
+  color: var(--mn-text-main);
+  font-size: 12px;
+  line-height: 1.2;
+  pointer-events: none;
+  white-space: nowrap;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.35);
+}

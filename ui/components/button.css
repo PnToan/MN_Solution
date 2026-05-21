@@ -1,0 +1,54 @@
+/* =========================================================
+   MN_SOLUTION - BUTTON COMPONENT
+   File: ui/components/button.css
+   ========================================================= */
+
+/* =========================================================
+   01. BASE BUTTON
+   ========================================================= */
+.mn-btn {
+  height: 32px;
+  padding: 0 11px;
+  border: 1px solid var(--mn-border-main);
+  border-radius: 6px;
+  background: var(--mn-bg-panel-soft);
+  color: var(--mn-text-main);
+  cursor: pointer;
+  transition: 0.15s ease;
+  font-size: 13px;
+  user-select: none;
+}
+.mn-btn:hover {
+  border-color: var(--mn-accent);
+}
+
+.mn-btn:active {
+  transform: translateY(1px);
+}
+
+/* =========================================================
+   02. PRIMARY BUTTON
+   ========================================================= */
+.mn-btn-primary {
+  background: var(--mn-accent);
+  border-color: var(--mn-accent);
+  color: #ffffff;
+}
+
+/* =========================================================
+   03. SMALL BUTTON
+   ========================================================= */
+.mn-btn-small {
+  height: 26px;
+  padding: 0 8px;
+  font-size: 12px;
+}
+
+/* =========================================================
+   04. DISABLED STATE
+   ========================================================= */
+.mn-btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+  transform: none;
+}

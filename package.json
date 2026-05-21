@@ -1,0 +1,30 @@
+{
+  "name": "mn_solution",
+  "version": "1.0.0",
+  "description": "Hệ nền web CAD/DAC chạy offline trước, chuẩn bị để phát hành online sau này.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PnToan/MN_Solution.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/PnToan/MN_Solution/issues"
+  },
+  "homepage": "https://github.com/PnToan/MN_Solution#readme",
+  "dependencies": {
+    "vue": "^3.5.34"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.7",
+    "vite": "^8.0.13"
+  }
+}

@@ -1,8 +1,0 @@
-{
-  "name": "MN_Solution",
-  "short_name": "MN_Solution",
-  "start_url": "./index.html",
-  "display": "standalone",
-  "background_color": "#1f1f1f",
-  "theme_color": "#2b2b2b"
-}
